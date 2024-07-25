@@ -3784,4 +3784,29 @@ input, select, textarea {
 
 		}
 
-
+		
+/* to center the hangman win and lose images */
+	<style>
+		.box.alt {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		.row.gtr-uniform {
+			display: flex;
+			justify-content: center;
+		}
+		.col-4 {
+			margin: 10px;
+		}
+	</style>
+	
+	<div class="box alt">
+		<div class="row gtr-uniform">
+			<div class="col-4"><span class="image fit"><img src="Hangman Game Win.png" alt="" height="200"/></span></div>
+			<div class="col-4"><span class="image fit"><img src="Hangman Game Lose.png" alt="" height="200"/></span></div>
+		</div>
+	</div>
+	
+	
